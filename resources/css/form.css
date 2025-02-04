@@ -1,0 +1,160 @@
+.form-container {
+    background: linear-gradient(135deg, #f6f9fc, #e9eff6);
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.form-heading {
+    color: var(--secondary-color);
+    font-weight: var(--font-weight-bold);
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.form-content {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+.form-control {
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: var(--secondary-color);
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.2);
+}
+.form-label i {
+    margin-right: 10px;
+    color: var(--secondary-color);
+}
+.is-invalid {
+    border-color: var(--error-color);
+}
+
+.invalid-feedback {
+    color: var(--error-color);
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.btn-primary {
+    background: var(--secondary-color);
+    border: none;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: var(--font-weight-bold);
+    text-transform: uppercase;
+    border-radius: 6px;
+    width: 100%;
+    transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: var(--hover-color);
+}
+.btn-secondary {
+    background: #6c757d;
+    border: none;
+    border-radius: 6px;
+    transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: var(--hover-color);
+    cursor: pointer;
+}
+
+/* Button outline */
+.btn-outline-primary {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    margin-right: 8px;
+}
+
+.btn-outline-primary:hover {
+    background: #316259;
+    border-color: var(--primary-color);
+    color: #fff;
+    opacity: 0.8;
+}
+button:focus {
+    box-shadow: 0 0 5px var(--primary-color);
+    border-color: var(--primary-color);
+}
+.btn-outline-primary:focus {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border-color: var(--primary-color);
+}
+.btn-outline-danger {
+    border-color: #dc3545;
+    color: #dc3545;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-outline-danger:hover {
+    background: #dc3545;
+    color: #fff;
+    opacity: 0.8;
+}
+
+/* Alert Styles */
+.alert {
+    padding: 12px;
+    border-radius: 6px;
+    text-align: center;
+    border: none;
+}
+
+.alert-info {
+    background: #d9edf7;
+    color: #31708f;
+}
+.alert-success {
+    background: var(--success-color);
+    color: #fff;
+}
+
+.alert-danger {
+    background: var(--white-color);
+    color: red;
+    font-weight: var(--font-weight-bold);
+    font-style: italic;
+}
+
+.link {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-weight: var(--font-weight-medium);
+    transition: color 0.3s ease;
+}
+
+.link:hover {
+    color: var(--hover-link-color);
+    opacity: 0.8;
+}
+
+.form-label i {
+    margin-right: 10px;
+    color: var(--secondary-color);
+}
+
+.position-relative {
+    position: relative;
+}
